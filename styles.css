@@ -1,19 +1,26 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
-
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 .background-container {
-    width: auto;
+  
     height: 500px;
     padding: 140px 150px;
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    background-image: url('images/banner/banner2.png');
-    background-repeat: no-repeat;
+    background-image: url('images/banner/banner2.png');    
     background-size: cover;
     margin-bottom: 10px;
+    
+
 }
 
 .banner-info {
@@ -24,8 +31,7 @@
     font-size: 26px;
     font-weight: 700;
     font-weight: bolder;
-
-
+    text-align: center;
 }
 
 .title-desc {
@@ -40,8 +46,9 @@
     padding: 14px;
     border-radius: 5px;
     background: #F15B22;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-top: 17px;
+    align-items: center;
 }
 
 .lady {
@@ -88,8 +95,10 @@
     width: 150px;
     height: 100px;
     padding: 50px;
-}   
-.disc { color: #737272;
+}
+
+.disc {
+    color: #737272;
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 500;
@@ -100,6 +109,7 @@
     font-size: 40px;
     font-weight: 700;
 }
+
 .mindset-text {
     color: #FFF;
     font-size: 40px;
@@ -107,6 +117,7 @@
     padding-top: 50px;
     margin-left: 50px;
 }
+
 .mindset {
     margin: 150px 0px;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
@@ -126,4 +137,27 @@
     margin-top: 30px;
     padding: 20px;
     border: none;
+}
+
+.footer-container {
+    padding: 70px;
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-around;   
+    gap: 20px;
+    
+}
+.footer-right-section{
+    gap: 15px;
+}
+.footer-disc{
+    margin-top: 8px;
+}
+#email{
+    padding: 9px;
+}
+.logos{
+    margin-top: 10px;
+    width: 30px;
 }
